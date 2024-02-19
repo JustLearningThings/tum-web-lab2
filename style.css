@@ -1,1 +1,170 @@
-/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, #reserve button
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a
+{
+    text-decoration: none;
+    color: #121212;
+}
+
+body a:hover
+{
+    color: #fafafa;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    margin-right: 5%;
+}
+
+header ul a
+{
+    margin: 0 10px;
+}
+
+header h1
+{
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#hero {
+    background-color: #f79f68;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#hero-text
+{
+    top: 30%;
+    left: 5%;
+    position: absolute;
+}
+
+#hero h1
+{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+#hero p
+{
+    font-size: 24px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+#hero button
+{
+    background: none;
+    outline: #121212;
+    box-shadow: none;
+    border: 2px;
+    border-style: solid;
+    border-radius: 12.5px;
+    border-color: #121212;
+    padding: 10px;
+}
+
+#hero button:hover
+{
+    color: #fafafa;
+    background-color: #121212;
+    cursor: pointer;
+}
+
+#description
+{
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+}
+
+#description #me
+{
+    margin: 7.5% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#me-text h2
+{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#me-text p
+{
+    max-width: 500px;
+    text-align: justify;
+    line-height: 22.5px;
+}
+
+#why-me {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    margin: 15% 5%;
+}
+
+.reason
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.reason h2
+{
+    position: absolute;
+    font-weight: 500;
+    font-size: 120px;
+    opacity: 50%;
+    top: -65%;
+}
+
+#reason-1 h2
+{
+    color: aquamarine;
+}
+
+#reason-2 h2
+{
+    color: chartreuse;
+}
+
+#reason-3 h2
+{
+    color: darkorchid;
+}
+
+.reason p
+{
+    z-index: 1;
+    max-width: 80%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 125%;
+}
