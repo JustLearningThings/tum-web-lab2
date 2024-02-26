@@ -83,13 +83,15 @@ header h1
     border-radius: 12.5px;
     border-color: #121212;
     padding: 10px;
+    color: #fafafa;
+    background-color: #121212;
 }
 
 #hero button:hover
 {
-    color: #fafafa;
-    background-color: #121212;
     cursor: pointer;
+    background: none;
+    color: #fafafa;
 }
 
 #description
