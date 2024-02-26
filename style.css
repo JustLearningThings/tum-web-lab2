@@ -168,3 +168,35 @@ header h1
     font-weight: 300;
     line-height: 125%;
 }
+
+#reviews {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-box {
+    max-width: 35vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+
+.reviews-box img
+{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.reviews-box h2
+{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.reviews-box p {
+    font-style: italic;
+}
