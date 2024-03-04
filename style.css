@@ -52,6 +52,90 @@ header h1
     position: relative;
 }
 
+@media screen and (max-width: 1280px)
+{
+    #hero-mascot
+    {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    #hero-mascot
+    {
+        display: none;
+    }
+
+    #hero-text
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+
+    #me
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    body #description #me
+    {
+        margin-bottom: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    body #hero h1
+    {
+        font-size: 2rem;
+    }
+
+    body #hero p
+    {
+        font-size: 1.25rem;
+    }
+
+    #description > div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    body #description #me
+    {
+        margin-bottom: 50vh;
+    }
+
+    .reason
+    {
+        margin-bottom: 50vh;
+        width: 75%;
+    }
+
+    #description .reason h2
+    {
+        font-size: 6rem;
+    }
+
+    body p
+    {
+        font-size: .8rem;
+    }
+
+    header li, footer li
+    {
+        font-size: .75rem;
+    }
+}
+
 #hero-mascot {
     width: 35vw;
     height: auto;
@@ -74,6 +158,13 @@ header h1
     width: 10vw;
     height: auto;
     animation: slideAndRotate .5s ease-in-out 5s forwards, rotateAnimation 1s ease-in-out 5s forwards;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#mascot-img:hover
+{
+    transform: scale(1.05);
 }
 
 @keyframes slideAndRotate {
