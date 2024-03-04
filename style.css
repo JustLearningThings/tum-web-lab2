@@ -94,6 +94,7 @@ header h1
     body #hero h1
     {
         font-size: 2rem;
+        text-align: center;
     }
 
     body #hero p
@@ -134,6 +135,43 @@ header h1
     {
         font-size: .75rem;
     }
+
+    body #mascot-img
+    {
+        bottom: 5vh;
+        animation: slideAndRotateResponsive .5s ease-in-out 5s forwards, rotateAnimation 1s ease-in-out 5s forwards;
+    }
+
+    @keyframes slideAndRotateResponsive {
+        from {
+            right: -5vw;
+            opacity: 0;
+        }
+        to {
+            left: 90vw;
+            opacity: 1;
+        }
+    }
+
+    body #mascot_text {
+        bottom: 12.5vh;
+        left: 85vw;
+    }
+
+    body #register {
+        position: relative;
+    }
+
+    body #mobile-off
+    {
+        display: block;
+        width: 25vw;
+        height: auto;
+        transform: rotate(15deg);
+        position: absolute;
+        left: 60vw;
+        top: 2.5vh;
+    }
 }
 
 #hero-mascot {
@@ -162,9 +200,17 @@ header h1
     transition: transform 0.3s ease-in-out;
 }
 
-#mascot-img:hover
-{
-    transform: scale(1.05);
+#mascot_text{
+    display: none;
+    position: fixed;
+    bottom: 12.5vw;
+    left: 90vw;
+    max-width: 8vw;
+}
+
+#mascot-img:hover + #mascot_text{
+    display: block;
+    width: 100vw;
 }
 
 @keyframes slideAndRotate {
@@ -392,6 +438,11 @@ input[type="submit"] {
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+#mobile-off
+{
+    display: none;
+}
 
 footer {
     background-color: #121212;
