@@ -20,42 +20,6 @@ body a:hover
     color: #fafafa;
 }
 
-/* header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10vh;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header ul {
-    display: flex;
-    margin-right: 5%;
-}
-
-header ul a
-{
-    margin: 0 10px;
-}
-
-header h1
-{
-    margin-left: 5%;
-    font-size: 18px;
-    font-weight: 500;
-} */
-
-/* #hero {
-    background-color: #f79f68;
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-} */
-
 @media screen and (max-width: 1280px)
 {
     #hero-mascot
@@ -70,14 +34,6 @@ header h1
     {
         display: none;
     }
-
-    /* #hero-text
-    {
-        display: flex;
-        flex-direction: column;
-        max-width: 100vw;
-        align-items: center;
-    } */
 
     #me
     {
@@ -99,17 +55,6 @@ header h1
     {
         max-width: 95vw;
     }
-
-    /* body #hero h1
-    {
-        font-size: 1.75rem;
-        text-align: center;
-    }
-
-    body #hero p
-    {
-        font-size: 1.25rem;
-    } */
 
     #description > div
     {
@@ -241,48 +186,6 @@ header h1
         transform: rotate(360deg);
     }
 }
-
-/* #hero-text
-{
-    top: 30%;
-    left: 5%;
-    position: absolute;
-} */
-
-/* #hero h1
-{
-    font-size: 36px;
-    font-weight: bold;
-    margin: 30px 0;
-}
-
-#hero p
-{
-    font-size: 24px;
-    font-weight: 200;
-    margin: 20px 0;
-}
-
-#hero button
-{
-    background: none;
-    outline: #121212;
-    box-shadow: none;
-    border: 2px;
-    border-style: solid;
-    border-radius: 12.5px;
-    border-color: #121212;
-    padding: 10px;
-    color: #fafafa;
-    background-color: #121212;
-}
-
-#hero button:hover
-{
-    cursor: pointer;
-    background: none;
-    color: #fafafa;
-} */
 
 #description
 {
